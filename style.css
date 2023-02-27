@@ -1,6 +1,3 @@
-* {
-  font-family: 'Montserrat', sans-serif;
-}
 
 body {
   background-color: #18022E;
@@ -22,6 +19,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+
 #imagem {
   width: 100%;
   height: 300px;
@@ -34,7 +32,7 @@ body {
   height: 300px;
   background-image: url('https://thumbs.gfycat.com/ElectricTornBorer-size_restricted.gif');
   margin-top: 20px;
-
+  display: block;
 }
 
 .lista {
@@ -51,4 +49,57 @@ body {
   display: inline-block;
   padding-right: 10px;
   text-transform: uppercase;
+}
+
+ a {
+  color: #B8B8FF;
+  text-decoration: none;  
+}
+
+a:hover {
+  font-size: 22px;
+}
+
+.sobre-mim {
+  width: 470px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+#titulo-section {
+  color: #B8B8FF;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+section p {
+  color: #B8B8FF;
+  font-family: 'Montserrat', sans-serif; 
+  padding: 10px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 480px) {
+
+  .container {
+    display: inline-block;
+  }
+  .titulo-principal {
+    display: block;
+    position: relative;
+    left: 28px;
+    align-items: center;
+    width: 100%;
+  }
+
+  #gif {
+    display: inline-block;
+    text-align: center;
+    width: auto;
+  }
 }
