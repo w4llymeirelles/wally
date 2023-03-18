@@ -59,7 +59,7 @@ a:hover {
   font-size: 22px;
 }
 
-.sobre-mim {
+#welcome-section {
   width: 470px;
   height: 200px;
   margin: 0 auto;
@@ -76,11 +76,6 @@ a:hover {
   font-family: 'Montserrat', sans-serif;
 }
 
-#welcome-section {
-    width: 470px;
-    height: 200px;
-    margin: 0 auto;
-}
 
 #projects {
   margin-top: 50px;
