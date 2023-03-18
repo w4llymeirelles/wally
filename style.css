@@ -81,6 +81,11 @@ a:hover {
   margin-top: 50px;
 }
 
+#project-grid {
+  display: flex;
+  justify-content: center;
+}
+
 section p {
   color: #B8B8FF;
   font-family: 'Montserrat', sans-serif; 
