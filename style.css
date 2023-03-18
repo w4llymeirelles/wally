@@ -90,7 +90,10 @@ a:hover {
   font-family: 'Montserrat', sans-serif;
 }
 
-
+#titulo-section {
+    margin-top: 100px;
+  
+}
 #project-grid {
   display: flex;
   justify-content: center;
@@ -104,6 +107,7 @@ section p {
 }
 
 .project-tile {
+  
   color: #B8B8FF;
   padding-top: 50px;
   text-align: center;
