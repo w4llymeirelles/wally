@@ -119,18 +119,18 @@ section p {
   margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
 
   html {
     margin: 0 auto;
   }
 
   #navbar {
-      text-align: center;
-      width: 470px;
-      height: 200px;
-      margin: 0 auto;
-  }
+    text-align: center;
+    width: 533px;
+    height: 200px;
+    margin: 0 auto;
+}
 
   a {
     display: inline-block;
@@ -145,6 +145,7 @@ section p {
 
   .container {
     display: inline-block;
+    width: 533px;
   }
   .titulo-principal {
     display: block;
@@ -154,13 +155,21 @@ section p {
     width: 100%;
   }
 
-  #gif {
+  #imagem {
     display: flex;
     text-align: center;
-    width: auto;
+    width: 533px;
+  }
+
+  #welcome-section {
+    width: 533px;
   }
 
   section p {
     font-size: 23px;
+  }
+
+  #projects {
+    width: 533px;
   }
 }
