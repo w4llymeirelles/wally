@@ -7,6 +7,8 @@ body {
   margin: 0 auto;
 }
 
+
+
 #titulo-principal {
   color: #B8B8FF;
   padding-top: 50px;
@@ -62,6 +64,17 @@ a:hover {
   width: 470px;
   height: 200px;
   margin: 0 auto;
+  
+}
+
+#welcome-section h1 {
+  color: #B8B8FF;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  
 }
 
 #projects {
@@ -75,10 +88,6 @@ a:hover {
   font-family: 'Montserrat', sans-serif;
 }
 
-
-#projects {
-  margin-top: 50px;
-}
 
 #project-grid {
   display: flex;
