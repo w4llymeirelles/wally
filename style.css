@@ -76,6 +76,16 @@ a:hover {
   font-family: 'Montserrat', sans-serif;
 }
 
+#welcome-section {
+    width: 470px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#projects {
+  margin-top: 50px;
+}
+
 section p {
   color: #B8B8FF;
   font-family: 'Montserrat', sans-serif; 
