@@ -121,7 +121,7 @@ section p {
 }
 
 
-project-tile:hover {
+.project-tile:hover {
   font-size: 22px;
 }
 
