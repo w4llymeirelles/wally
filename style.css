@@ -119,6 +119,26 @@ section p {
   margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
 }
+
+
+project-tile:hover {
+  font-size: 22px;
+}
+
+
+
+#contato {
+  width: 470px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+#contato p {
+  text-align: center;
+  
+
+}
+
 @media screen and (max-width: 360px) {
 
   html {
